@@ -1,0 +1,40 @@
+# CODEOWNERS file for reporting-module-683
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-tooling @Armor-test/grp-reporting @Armor-test/team-governance
+
+# Directory ownership
+/config/ @Armor-test/grp-integration @Armor-test/team-notifications @Armor-test/unit-devops
+/docs/ @Armor-test/grp-payments @Armor-test/dept-identity @Armor-test/dept-test
+/dist/ @Armor-test/grp-search @Armor-test/squad-mobile
+/controllers/ @Armor-test/dept-reporting @Armor-test/grp-integration @Armor-test/grp-storage
+/data/ @Armor-test/grp-payments @Armor-test/squad-apps
+/auth/ @Armor-test/squad-cache @Armor-test/squad-frontend
+/pages/ @Armor-test/unit-cloud @Armor-test/squad-api
+/internal/ @Armor-test/dept-reporting @Armor-test/squad-ml @Armor-test/dept-notifications
+/web/ @Armor-test/dept-data @Armor-test/unit-cloud @Armor-test/squad-search
+/pkg/ @Armor-test/squad-qa @Armor-test/squad-mobile @Armor-test/dept-automation
+/views/ @Armor-test/dept-release @Armor-test/dept-notifications
+/examples/ @Armor-test/squad-reporting @Armor-test/squad-research @Armor-test/squad-apps
+/api/ @Armor-test/squad-ux @Armor-test/grp-payments
+/src/ @Armor-test/unit-governance @Armor-test/squad-search @Armor-test/dept-api
+/modules/ @Armor-test/squad-ml @Armor-test/dept-reliability
+
+# File type ownership
+*.py @Armor-test/squad-database @Armor-test/team-notifications @Armor-test/team-security
+*.go @Armor-test/team-frontend @Armor-test/squad-performance
+*.gradle @Armor-test/squad-ml @Armor-test/squad-reporting @Armor-test/dept-ui
+*.yml @Armor-test/squad-frontend @Armor-test/grp-api @Armor-test/squad-apps
+*.toml @Armor-test/grp-payments @Armor-test/squad-ux
+*.js @Armor-test/squad-payments @Armor-test/dept-reporting @Armor-test/dept-reliability
+*.h @Armor-test/squad-research @Armor-test/unit-governance @Armor-test/grp-integration
+*.ini @Armor-test/squad-tooling @Armor-test/grp-search @Armor-test/grp-api
+*.tsx @Armor-test/squad-qa @Armor-test/unit-test
+*.cs @Armor-test/squad-database @Armor-test/squad-mobile
+*.xml @Armor-test/squad-search @Armor-test/dept-automation @Armor-test/squad-payments
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
